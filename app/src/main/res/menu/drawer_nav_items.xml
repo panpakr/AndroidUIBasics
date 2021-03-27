@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Show with Two  elements First  -->
+
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@android:drawable/btn_star_big_on"/>
+
+    <item android:id="@+id/search_item"
+        android:title="Search"
+        android:icon="@android:drawable/sym_action_call"/>
+
+
+    <!-- Show with 3 -4 -5  elements Succesively
+
+
+    <item android:id="@+id/gallery"
+        android:title="Gallery"
+        android:icon="@android:drawable/ic_menu_gallery"/>
+
+
+    <item android:id="@+id/phone"
+        android:title="Phone"
+        android:icon="@android:drawable/presence_audio_away"/>-->
+
+    <item android:id="@+id/contacts"
+        android:title="Phone"
+        android:icon="@android:drawable/sym_contact_card"/>
+
+    <!-- Show with 6 elements So you know how it failed after max limits  in both Code and xml
+    <item android:id="@+id/test"
+        android:title="Hello"
+        android:icon="@android:drawable/sym_contact_card"/> -->
+
+</menu>
